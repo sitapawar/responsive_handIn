@@ -1,0 +1,80 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+
+.mainText{
+    background-color: white;
+    align-items: center;
+    margin-left:14%;
+    margin-right: 14%;
+}
+h1{
+    margin-top: 6vw;
+    font-size:3vw;
+    padding: .5vw .5vw;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-size:2vw;
+    padding: .5vw .5vw;
+    font-family: 'Playfair Display SC', serif;
+    color:#00373F;
+}
+h3{
+    font-size:1.7vw;
+    padding: .5vw .5vw;
+    font-family: 'Playfair Display', serif;
+    color:#005762;
+    margin-left: 2vw;
+}
+p{
+    margin-left:3.5vw;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    margin:0;
+  }
+  ul.topnav {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: fixed;  
+    top: 0; 
+    width: calc(100% - 15px);; 
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #005762;
+    }
+    
+  li {
+    float: right;
+  }
+    
+  li a {
+      display: block;
+      color: aliceblue;
+      font-size:1.5vw;
+      text-align: center;
+      text-decoration: none;
+      padding: 1vw 1vw;
+      font-family: 'Playfair Display', serif;
+  }
+  li a:hover:not(.titleText) {
+    background-color: #00373F;
+  }
+
+  li a.titleText{
+    font-size:2vw;
+    padding: .5vw .5vw;
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  li.titleText{
+    float:left;
+    
+  }
