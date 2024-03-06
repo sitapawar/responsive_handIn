@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 
-
+img{
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
 .mainText{
     background-color: white;
     align-items: center;
